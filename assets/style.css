@@ -21,24 +21,16 @@
     --footer-sect1-background-teal: #20b2aa;
     --footer-sect2-background: #7fffd4;
     --footer-sect2-object: #feb5c0;
+
+    --header-colour: #3161e0;
+    --background-colour: #f6f6f6;
+    --button1-plus-footer: #23272a;
+    --button2: #8ea1e1;
+    --font-colour1: #1f2327;
+    --font-colour2: #7289da;
 }
 
 /* #endregion common */
-
-/* #region debug */
-.debug * {
-    border: 1px dashed;
-}
-
-.debug header {
-    background-color: var(--header-cont-background);
-
-    div {
-        background-color: var(--header-background);
-    }
-}
-
-/* #endregion debug */
 
 /* #region header */
 header {
