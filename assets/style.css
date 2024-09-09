@@ -171,6 +171,10 @@ a {
     display: flex;
 }
 
+.svg-180 {
+    transform: rotate(180deg);
+}
+
 .sect3 {
     display: flex;
     justify-content: center;
