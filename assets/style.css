@@ -41,6 +41,10 @@ button {
     border-radius: 1rem;
 }
 
+.logo {
+    padding-left: 0.5rem;
+}
+
 /* #endregion common */
 
 /* #region header */
@@ -60,10 +64,6 @@ header {
 a {
     margin: 0rem 0.5rem;
     color: white;
-}
-
-.logo {
-    padding-left: 0.5rem;
 }
 
 .login {
@@ -314,7 +314,7 @@ a {
 
 /* #region footer section 1 */
 .foot1 {
-    background-color: var(--footer-cont-background);
+    background-color: var(--button1-plus-footer);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -322,28 +322,46 @@ a {
     height: 700px;
 
     div {
-        background-color: var(--footer-sect1-background-teal);
         width: 13%;
         height: 70%;
+        line-height: 2.5rem;
     }
 
     :first-child {
-        background-color: var(--footer-sect1-background-salmon);
         width: 27.5%;
+        
+        img {
+            width: 2rem;
+        }
+    }
+
+    h1 {
+        color: var(--font-colour2);
+    }
+
+    h4 {
+        color: var(--font-colour2);
+    }
+
+    p {
+        color: white;
     }
 }
 
 /* #endregion footer section 1 */
 
+hr {
+    border: 1px solid var(--font-colour2);
+}
+
 /* #region footer section 2 */
 .foot2 {
-    background-color: var(--footer-cont-background);
+    background-color: var(--button1-plus-footer);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     padding-top: 1rem;
-    margin: 1px 0px;
 
     div {
         display: flex;
