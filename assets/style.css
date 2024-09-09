@@ -9,20 +9,6 @@
 /* cont is short for container */
 /* sect is short for section */
 :root {
-    --header-cont-background: #add8e6;
-    --header-background: #daa520;
-    --main-firstsect-cont-background: #00008b;
-    --main-firstsect-background: #ee82ee;
-    --main-cont-background: #d3d3d3;
-    --main-middlesect-background-blue: #1e90ff;
-    --main-middlesect-background-pink: #ffc0cb;
-    --main-finalsect-background: #228b22;
-    --footer-cont-background: #23272a;
-    --footer-sect1-background-salmon: #f08080;
-    --footer-sect1-background-teal: #20b2aa;
-    --footer-sect2-background: #7fffd4;
-    --footer-sect2-object: #feb5c0;
-
     --header-colour: #3161e0;
     --background-colour: #f6f6f6;
     --button1-plus-footer: #23272a;
@@ -93,6 +79,7 @@ a {
     height: 700px;
     background-image: url(../assets/img/jumbo.png);
     background-size: contain;
+    background-repeat: no-repeat;
 
     .buttons {
         margin: auto;
@@ -293,7 +280,7 @@ a {
             font-size: 3rem;
         }
 
-        p {
+        .star {
             width: auto;
             text-align: center;
             background-image: url(../assets/img/stars.svg);
@@ -331,7 +318,7 @@ a {
         width: 27.5%;
         
         img {
-            width: 2rem;
+            width: 1.5rem;
         }
     }
 
@@ -346,13 +333,22 @@ a {
     p {
         color: white;
     }
+
+    span {
+        font-size: small;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+
+        span {
+            margin: 0.2rem;
+        }
+    }
 }
 
 /* #endregion footer section 1 */
-
-hr {
-    border: 1px solid var(--font-colour2);
-}
 
 /* #region footer section 2 */
 .foot2 {
@@ -367,7 +363,8 @@ hr {
         display: flex;
         justify-content: space-between;
         width: 80%;
-        padding: 0.5rem 0rem;
+        padding: 2rem 0rem;
+        border-top: 1px solid var(--font-colour2);
 
         button {
             background-color: var(--button2);
