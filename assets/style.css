@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 /* cont is short for container */
@@ -35,6 +35,12 @@ a:link {
     text-decoration: none;
 }
 
+button {
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 1rem;
+}
+
 /* #endregion common */
 
 /* #region header */
@@ -62,13 +68,10 @@ a {
 
 .login {
     padding-right: 0.5rem;
+}
 
-    button {
-        padding: 0.5rem 0.75rem;
-        border: none;
-        border-radius: 1rem;
-        background-color: white;
-    }
+#login {
+    background-color: white;
 }
 
 /* #endregion header */
@@ -83,18 +86,54 @@ a {
 
 /* #region first section */
 .sect1 {
-    background-color: var(--main-firstsect-cont-background);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 500px;
+    height: 700px;
+    background-image: url(../assets/img/jumbo.png);
+    background-size: contain;
+
+    .buttons {
+        margin: auto;
+        text-align: center;
+
+        button {
+            font-size: large;
+            border-radius: 2rem;
+            padding: 1rem 2rem;
+            margin: 0rem 1rem;
+        }
+    }
 
     div {
-        background-color: var(--main-firstsect-background);
         width: 60%;
         height: 70%;
+        font-size: x-large;
+        line-height: 2rem;
+
+        h1 {
+            text-align: center;
+            color: white;
+            padding: 1rem 2rem;
+        }
+
+        p {
+            text-align: center;
+            color: white;
+            padding: 1rem 2rem;
+        }
     }
+}
+
+#mac {
+    background-color: white;
+    color: var(--font-colour1);
+}
+
+#browser {
+    background-color: var(--button1-plus-footer);
+    color: white;
 }
 
 /* #endregion first section */
