@@ -221,23 +221,42 @@ a {
     }
 }
 
-
 .sect4 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 500px;
+    margin: 5rem 0rem;
 
     div {
-        background-color: var(--main-middlesect-background-blue);
         width: 50%;
-        height: 70%;
+        height: 100%;
+    }
+
+    .background3 {
+        background-image: url(../assets/img/item3.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     :last-child {
-        background-color: var(--main-middlesect-background-pink);
         width: 30%;
+        
+        h1 {
+            text-align: left;
+            color: var(--font-colour1);
+            padding: 2.5rem 2.5rem 0rem;
+            font-size: 3rem;
+        }
+
+        p {
+            width: auto;
+            text-align: left;
+            color: var(--font-colour1);
+            padding: 2.5rem;
+            font-size: x-large;
+        }
     }
 }
 
