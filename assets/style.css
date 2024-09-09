@@ -167,14 +167,17 @@ a {
     }
 }
 
+.svg {
+    display: flex;
+}
+
 .sect3 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 500px;
-    margin: 5rem 0rem;
-    background-color: var(--background-colour);
+    margin: 0 0 5rem 0rem;
 
     div {
         width: 50%;
@@ -251,6 +254,10 @@ a {
 /* #endregion middle sections */
 
 /* #region final section */
+.svg {
+    display: flex;
+}
+
 .sect5 {
     display: flex;
     flex-direction: column;
@@ -259,7 +266,7 @@ a {
     width: 100%;
     height: 100%;
     padding: 5rem;
-    background-color: var(--background-colour);
+    margin: 0 0 5rem 0rem;
 
     div {
         text-align: center;
