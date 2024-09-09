@@ -361,21 +361,17 @@ hr {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-top: 1rem;
+    padding: 1rem 0rem 3rem;
 
     div {
         display: flex;
         justify-content: space-between;
-        background-color: var(--footer-sect2-background);
         width: 80%;
         padding: 0.5rem 0rem;
 
-        span {
-            background-color: var(--footer-sect2-object);
-        }
-
         button {
-            background-color: var(--footer-sect2-object);
+            background-color: var(--button2);
+            color: white;
         }
     }
 }
